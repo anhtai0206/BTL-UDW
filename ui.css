@@ -1,0 +1,93 @@
+.banner {
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.container {
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.grid {
+    width: 500px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: lightgray;
+}
+
+.none, .bomb {
+    background-image: url(assets/default.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+}
+
+.lose {
+    background-image: url(assets/mine.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+}
+
+.empty {
+    background-image: url(assets/empty0.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+}
+
+.one {
+    background-image: url(assets/empty1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+}
+
+.two {
+    background-image: url(assets/empty2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+}
+.three {
+    background-image: url(assets/empty3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+}
+.four {
+    background-image: url(assets/empty4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+}
+.five {
+    background-image: url(assets/empty5.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+}
+
+.flag {
+    background-image: url(assets/flag.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+}
